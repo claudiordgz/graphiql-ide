@@ -1,0 +1,20 @@
+.App {
+  min-height: 100%;
+  height: 100vh;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.App-header > * {
+  margin: 5px;
+}
+
+.App-url { width: 60%; }
+.App-api-key { width: 40%; }
+.App-apply { width: 25%; }
